@@ -1,0 +1,173 @@
+/* Barra Superior */
+.top-bar {
+    height: 2.18rem;
+    font-size: .75rem;
+    padding: .1rem 1rem;
+    background-color: #262729;
+}
+
+/* Etiqueta A */
+a {
+    text-decoration: none;
+}
+
+/* Lista Desordenada */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Logo y botón Mi cuenta*/
+.main-header {
+    padding-top: 2.35rem;
+    padding-bottom: 1rem;
+    max-width: 70rem !important;
+}
+
+/* Navegación por la página*/
+.main-nav {
+    max-width: 70rem;
+    width: 100%;
+}
+
+/* Links de la barra de navegación por la página*/
+.main-nav>ul>li>a {
+    border-right: 1px solid black;
+    font-weight: 500;
+}
+
+/* Elemento de la lista*/
+li {
+    min-width: fit-content;
+}
+
+/* Botones */
+button {
+    background-color: #38a121 !important;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+    width: fit-content !important;
+}
+
+/* Sombra para el carrusel*/
+.shadow-carousel {
+    box-shadow: 50vw 0px 100px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 50vw 0px 100px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 50vw 0px 100px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+/* Tarjetas de contenido */
+.card {
+    border: none;
+    margin: 0 0.5em;
+    width: calc(100% / 2);
+}
+
+/* Panel Control Carrusel*/
+.ccarousel-control-prev,
+.ccarousel-control-next {
+    width: 1vh;
+    height: 5vh;
+    background-color: black;
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.ccarousel-control-next>span,
+.ccarousel-control-prev>span {
+    display: none !important;
+}
+
+.ccarousel-control-next:hover>span,
+.ccarousel-control-prev:hover>span {
+    display: block !important;
+}
+
+.ccarousel-control-next:hover,
+.ccarousel-control-prev:hover {
+    width: 40px;
+}
+
+.ccarousel-control-prev span,
+.ccarousel-control-next span {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nro-slide {
+    height: 8px !important;
+    width: 8px !important;
+    border-radius: 100% !important;
+    background-color: #b8c900 !important;
+}
+
+/* Fin Panel Control Carrusel*/
+
+
+/*Carrusel multiple*/
+.cards-wrapper {
+    display: flex;
+}
+
+
+/* Slides Carrusel Multiple*/
+.image-wrapper img {
+    max-width: 100%;
+}
+
+.nro-slide.active {
+    width: 24px !important;
+    font-weight: bold;
+    height: 8px !important;
+}
+
+
+
+/* Simular Crédito */
+.input-rut {
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #cfdae6;
+    height: 2.5rem;
+    width: 20.62rem;
+    padding: 0 1rem;
+}
+
+.btn-rut {
+    border-radius: 6px;
+    border: 0 solid;
+    height: 2.5rem;
+    width: 11.9rem;
+    margin-left: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -.4px;
+    text-align: center;
+    color: white;
+}
+
+.input-rut:focus {
+    border: #38a121;
+    box-shadow: 0 0 0 0.2rem rgba(0, 132, 66, .25);
+}
+
+/* Fin Simular Crédito*/
+
+/* Iconos redes sociales */
+.icon {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 15px !important;
+    fill: white;
+}
+
+
+.row {
+    height: 20vw !important;
+}
